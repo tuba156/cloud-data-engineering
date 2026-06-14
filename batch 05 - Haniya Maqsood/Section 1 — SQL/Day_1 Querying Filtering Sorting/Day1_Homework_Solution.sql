@@ -1,4 +1,4 @@
--- List all brand names from the brands table.
+-- List all brand names from the brands table..
 select brand_name from [production].[brands];
 
 --Show the product name and list price of all products, sorted from most expensive to cheapest.
@@ -77,7 +77,7 @@ where active = 1
 
 -- Using UNION, 
 -- get a combined list of all cities from both customers and stores (no duplicates), 
--- sorted A–Z.
+-- sorted Aï¿½Z.
 
 select city from [sales].[stores]
 union
